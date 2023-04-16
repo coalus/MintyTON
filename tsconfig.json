@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es6",
+      "lib": ["ES2022"],
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "outDir": "dist",
+      "baseUrl": "src",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "strict": true,
+      "esModuleInterop": true,
+      "strictPropertyInitialization": false
+    },
+    "include": ["src/**/*"]
+}
+  

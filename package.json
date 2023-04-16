@@ -1,0 +1,23 @@
+{
+  "name": "mintyton",
+  "version": "1.0.0",
+  "description": "Example of minting NFT on TON",
+  "main": "src/app.ts",
+  "repository": "https://github.com/coalus/MintyTON.git",
+  "author": "Coalus <nomail@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc --skipLibCheck && node dist/app.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "dotenv": "^16.0.3",
+    "ton": "^13.4.1",
+    "ton-core": "^0.48.0",
+    "ton-crypto": "^3.2.0"
+  }
+}

@@ -1,0 +1,12 @@
+dist
+.env
+*.log
+node_modules
+
+# yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
