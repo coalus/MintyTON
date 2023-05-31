@@ -25,7 +25,7 @@ export async function openWallet(mnemonic: string[], testnet: boolean) {
     apiKey: process.env.TONCENTER_API_KEY,
   });
 
-  let wallet = WalletContractV3R2.create({
+  const wallet = WalletContractV4.create({
     workchain: 0,
     publicKey: keyPair.publicKey,
   });

@@ -6,14 +6,14 @@ Example of minting NFT Collection on TON using ton.js
 - Clone this repo `git clone https://github.com/coalus/MintyTON` 
 - Go to project folder `cd MintyTON`
 - Install dependencies `yarn` 
-- Copy .env.template to .env and insert your data 
+- Copy .env.template to .env and insert your data (see table below)
 - Start mint by running `yarn start`
 
 ## Environment variables
 
 | Name                                     | Description                              |
 | ---------------------------------------- | ---------------------------------------- |
-| `PINATA_API_KEY`, `PINATA_SECRET_API_KEY`| URL of the mongo database                |
+| `PINATA_API_KEY`, `PINATA_API_SECRET`| API keys from [pinata.cloud](https://pinata.cloud)|
 | `MNEMONIC`                               | 24 mnemonic words of owner wallet        |
 | `TONCENTER_API_KEY`                      | API key from [@tonapibot](https://t.me/tonapibot) / [@tontestnetapibot](https:/t.me/tontestnetapibot)                        |
 

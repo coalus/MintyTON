@@ -30,7 +30,7 @@ export class NftItem {
     return seqno;
   }
 
-  static async addressByIndex(
+  static async getAddressByIndex(
     collectionAddress: Address,
     itemIndex: number
   ): Promise<Address> {

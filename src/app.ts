@@ -77,7 +77,7 @@ async function init() {
   await waitSeqno(seqno, wallet);
   console.log("Successfully deployed new marketplace");
 
-  const nftToSaleAddress = await NftItem.addressByIndex(collection.address, 0);
+  const nftToSaleAddress = await NftItem.getAddressByIndex(collection.address, 0);
   const saleData: GetGemsSaleData = {
     isComplete: false,
     createdAt: Math.ceil(Date.now() / 1000),
