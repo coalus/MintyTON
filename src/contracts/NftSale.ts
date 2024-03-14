@@ -74,7 +74,7 @@ export class NftSale {
     dataCell.storeUint(saleData.createdAt, 32);
     dataCell.storeAddress(saleData.marketplaceAddress);
     dataCell.storeAddress(saleData.nftAddress);
-    dataCell.storeAddress(null);
+    dataCell.storeAddress(saleData.nftOwnerAddress);
     dataCell.storeCoins(saleData.fullPrice);
     dataCell.storeRef(feesCell.endCell());
 
