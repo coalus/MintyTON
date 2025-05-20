@@ -17,7 +17,7 @@ async function init() {
   const metadataFolderPath = "./data/metadata/";
   const imagesFolderPath = "./data/images/";
 
-  const wallet = await openWallet(process.env.MNEMONIC!.split(" "), true);
+  const wallet = await openWallet([process.env.MNEMONIC!], true);
 
   console.log("Started uploading images to IPFS...");
   const imagesIpfsHash = await uploadFolderToIPFS(imagesFolderPath);
